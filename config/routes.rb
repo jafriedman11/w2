@@ -7,6 +7,8 @@ Rails.application.routes.draw do
 
 root 'application#hello'
 
+get 'goodbye' => 'application#goodbye'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
